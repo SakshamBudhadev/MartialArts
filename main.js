@@ -114,7 +114,7 @@ loadimages((images)=>{
         queuedanimations.push("block");
         else if(key==="ArrowDown")
         queuedanimations.push("forward");
-        else if(key==="Z")
+        else if(key==="Z"||key==="z")
         queuedanimations.push("backward");
     });
 
